@@ -14,5 +14,11 @@ Start a Vault server in development mode with `education` as the root token. Lea
 - `$ export VAULT_TOKEN=education`
 - Notice that there are two output variables named `backend` and `role`. These output variables will be used by the Terraform Operator workspace in a later step.
 
+### Provision compute instance
+Now that you have successfully configured Vault's AWS Secrets Engine, you can retrieve dynamic short lived AWS token to provision an EC2 instance.
+- `cd ../operator-workspace`
+- `terraform init`
+- `terraform apply`
+
 ### Reference
 https://learn.hashicorp.com/tutorials/terraform/secrets-vault
