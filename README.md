@@ -19,6 +19,9 @@ Now that you have successfully configured Vault's AWS Secrets Engine, you can re
 - `cd ../operator-workspace`
 - `terraform init`
 - `terraform apply`
+- Notice your credentials expired.
+
+![image](https://user-images.githubusercontent.com/33342822/151642511-05387965-61fb-428a-acc5-1ed1e08164fa.png)
 
 ### Reference
 https://learn.hashicorp.com/tutorials/terraform/secrets-vault
